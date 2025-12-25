@@ -41,7 +41,7 @@ st.markdown("""
 # ============ LOAD & PREPARE DATA ============
 @st.cache_data
 def load_data():
-    path = r'C:\Users\user\Downloads\Only Python\Vehicle Fuel Economy Data.csv'
+    path = 'Vehicle Fuel Economy Data.csv'
     if not os.path.exists(path):
         st.error(f"Data file not found: {path}")
         st.stop()
@@ -923,3 +923,4 @@ if "ML Predictions" in analysis_tabs_select:
 # ============ FOOTER ============
 st.divider()
 st.write("*© 2024 Vehicle Fuel Economy Analytics Dashboard | Data-Driven Insights for the Automotive Industry*")
+
