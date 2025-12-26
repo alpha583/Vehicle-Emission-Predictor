@@ -32,6 +32,9 @@ An end-to-end Data Science and Business Intelligence platform designed to analyz
 - **VCS:** GitHub
 
 ## 📊 Methodology & Best Practices
+## 🛠️ Development & Methodology
+- **AI-Assisted Development:** Leveraged **GitHub Copilot** as a pair-programmer to accelerate boilerplate coding, unit testing, and UI structure implementation.
+- **Human-in-the-Loop:** While AI assisted with syntax and structure, the core logic for **Data Leakage Prevention**, **Feature Engineering**, and **Market Intelligence metrics** was manually designed and verified to ensure professional standards and data accuracy.
 - **Data Cleaning:** Automated imputation and handling of missing values (especially for older vehicle records).
 - **Feature Engineering:** Developed custom "Efficiency Scores" to track technological advancements.
 - **Leakage Prevention:** Removed performance-dependent variables (like MPG) during training to ensure the model focuses purely on engine architecture.
